@@ -6,12 +6,12 @@ SteamGroup is written in Python 3.4.2.
 
 ### Requirements
 - Python 3.
-- The `requests` package.
+- The `requests` package. Use `pip install requests` to install.
 - Your Steam Group URL.
 
 ### Running
-- Specify your URL in `SteamGroup.py`.
-- `from SteamGroup import steamgroup.
+- Specify your URL in `SteamGroup.py`
+- `from SteamGroup import steamgroup`
 - Use `steamgroup.get_steam_ids()` to get returned ids.
 
 
