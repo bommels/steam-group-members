@@ -16,15 +16,17 @@ SteamGroup is written in Python 3.4.2.
 
 
 ### Example
-View example.py for code example.
+View `example.py` for code example.
 
 ```python
 from SteamGroup import steamgroup
 steamid = steamgroup.get_steam_ids()
 ```
+Output:
 ```
 [200] http://steamcommunity.com/groups/SteamLadder/memberslistxml?xml=1&p=1
 [200] http://steamcommunity.com/groups/SteamLadder/memberslistxml?xml=1&p=2
 [OK!] Fetched 1980 SteamIDs
 ```
+`steamids` now contains an array of SteamID64s fetched with SteamGroup.
 
