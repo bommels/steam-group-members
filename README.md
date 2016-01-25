@@ -29,6 +29,7 @@ Output:
 [OK!] Fetched 1980 SteamIDs
 ```
 Result:
-
+```
 `steamids` now contains an array of SteamID64s fetched with SteamGroup.
+```
 
