@@ -28,5 +28,6 @@ Output:
 [200] http://steamcommunity.com/groups/SteamLadder/memberslistxml?xml=1&p=2
 [OK!] Fetched 1980 SteamIDs
 ```
+Result:
 `steamids` now contains an array of SteamID64s fetched with SteamGroup.
 
