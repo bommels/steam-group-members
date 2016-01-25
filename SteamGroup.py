@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 
 class SteamGroup:
     """
-	This Python class fetches the SteamID64's of all the Steam group members. Use run() to fetch and print the ID's.
+    This Python class fetches the SteamID64's of all the Steam group members. Use run() to fetch and print the ID's.
     """
     XML_URL = 'http://steamcommunity.com/groups/SteamLadder' + '/memberslistxml?xml=1' # Add your custom group URL here
     XML_NEXT_PAGE = False

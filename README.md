@@ -5,7 +5,7 @@ Fetches SteamID64s of Steam group members. You can specify your own Steam Group 
 SteamGroup is written in Python 3.4.2.
 
 ### Requirements
-- Python 3.
+- Python 3+
 - The `requests` package. Use `pip install requests` to install.
 - Your Steam Group URL.
 
@@ -29,5 +29,6 @@ Output:
 [OK!] Fetched 1980 SteamIDs
 ```
 Result:
+
 `steamids` now contains an array of SteamID64s fetched with SteamGroup.
 
