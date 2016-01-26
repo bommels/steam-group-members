@@ -20,7 +20,7 @@ View `example.py` for code example.
 
 ```python
 from SteamGroup import steamgroup
-steamid = steamgroup.get_steam_ids()
+steamids = steamgroup.get_steam_ids()
 ```
 Output:
 ```
